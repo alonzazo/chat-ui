@@ -2,7 +2,7 @@
 import Axios from "axios";
 
 const api = Axios.create({
-    baseURL: 'http://3.83.105.133:8080/api/',
+    baseURL: '/api/',
 });
 
 const chatAPI = {
